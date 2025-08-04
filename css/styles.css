@@ -1,43 +1,51 @@
-body {
-    margin: 60px auto;
-    width: 70%;
+.container {
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  border: 3px dashed palevioletred;
+  border-radius: 2rem;
+  padding: 3rem;
+  background-color: rgba(255 255 255 / 0.3);
 }
-nav ul, footer ul {
-    font-family:'Helvetica', 'Arial', 'Sans-Serif';
-    padding: 0px;
-    list-style: none;
-    font-weight: bold;
+
+.space { 
+  height: 4rem;
 }
-nav ul li, footer ul li {
-    display: inline;
-    margin-right: 20px;
+
+.bitter-header {
+  font-family: "Bitter", serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
 }
-a {
-    text-decoration: none;
-    color: #999;
-}
-a:hover {
-    text-decoration: underline;
-}
+
 h1 {
-    font-size: 3em;
-    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+  font-size: 4.5rem;
 }
-p {
-    font-size: 1.5em;
-    line-height: 1.4em;
-    color: #333;
+h2 {
+  font-size: 3.5rem;
 }
-footer {
-    border-top: 1px solid #d5d5d5;
-    font-size: .8em;
+.project-link {
+  font-size: 2.7rem;
+}
+p, li, .project-links {
+  font-size: 2.4rem;
+  padding-left: 2rem;
+}
+.project-links {
+  margin-top: -25px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+.dot-divider {
+  text-align: center;
 }
 
-ul.posts { 
-    margin: 20px auto 40px; 
-    font-size: 1.5em;
-}
 
-ul.posts li {
-    list-style: none;
+body {
+   background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svgjs="http://svgjs.dev/svgjs" viewBox="0 0 800 800"><defs><filter id="bbblurry-filter" x="-100%" y="-100%" width="400%" height="400%" filterUnits="objectBoundingBox" primitiveUnits="userSpaceOnUse" color-interpolation-filters="sRGB"><feGaussianBlur stdDeviation="130" x="0%" y="0%" width="100%" height="100%" in="SourceGraphic" edgeMode="none" result="blur"></feGaussianBlur></filter></defs><g filter="url(%23bbblurry-filter)"><ellipse rx="277.5" ry="277.5" cx="566.8714146468412" cy="566.8628125700734" fill="hsla(214.74, 37.25%, 90%, 1.00)"></ellipse><ellipse rx="277.5" ry="277.5" cx="480.8198975369586" cy="276.0142764801187" fill="hsl(1.87, 69.57%, 90.98%)"></ellipse><ellipse rx="277.5" ry="277.5" cx="180.52686217187528" cy="194.42712951234293" fill="hsl(31.03, 80.56%, 85.88%)"></ellipse></g></svg>');
+background-size: cover;
+  height: 98vh;
+  margin: 0;
+  padding: 0;
+    
 }
