@@ -26,6 +26,7 @@ h2 {
 }
 .project-link {
   font-size: 2.7rem;
+  color: rgb(5, 68, 146);
 }
 p, li, .project-links {
   font-size: 2.4rem;
@@ -42,10 +43,9 @@ p, li, .project-links {
 
 
 body {
-   background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svgjs="http://svgjs.dev/svgjs" viewBox="0 0 800 800"><defs><filter id="bbblurry-filter" x="-100%" y="-100%" width="400%" height="400%" filterUnits="objectBoundingBox" primitiveUnits="userSpaceOnUse" color-interpolation-filters="sRGB"><feGaussianBlur stdDeviation="130" x="0%" y="0%" width="100%" height="100%" in="SourceGraphic" edgeMode="none" result="blur"></feGaussianBlur></filter></defs><g filter="url(%23bbblurry-filter)"><ellipse rx="277.5" ry="277.5" cx="566.8714146468412" cy="566.8628125700734" fill="hsla(214.74, 37.25%, 90%, 1.00)"></ellipse><ellipse rx="277.5" ry="277.5" cx="480.8198975369586" cy="276.0142764801187" fill="hsl(1.87, 69.57%, 90.98%)"></ellipse><ellipse rx="277.5" ry="277.5" cx="180.52686217187528" cy="194.42712951234293" fill="hsl(31.03, 80.56%, 85.88%)"></ellipse></g></svg>');
-background-size: cover;
-  height: 98vh;
-  margin: 0;
-  padding: 0;
+   background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svgjs="http://svgjs.dev/svgjs" viewBox="0 0 700 700" preserveAspectRatio="none"><defs><filter id="bbblurry-filter" x="-100%" y="-100%" width="200%" height="200%" filterUnits="objectBoundingBox" primitiveUnits="userSpaceOnUse" color-interpolation-filters="sRGB"><feGaussianBlur stdDeviation="130" x="0%" y="0%" width="100%" height="100%" in="SourceGraphic" edgeMode="none" result="blur"></feGaussianBlur></filter></defs><g filter="url(%23bbblurry-filter)"><ellipse rx="277.5" ry="277.5" cx="566.8714146468412" cy="566.8628125700734" fill="hsla(214.74, 37.25%, 90%, 1.00)"></ellipse><ellipse rx="277.5" ry="277.5" cx="480.8198975369586" cy="276.0142764801187" fill="hsl(1.87, 69.57%, 90.98%)"></ellipse><ellipse rx="277.5" ry="277.5" cx="180.52686217187528" cy="194.42712951234293" fill="hsl(31.03, 80.56%, 85.88%)"></ellipse></g></svg>') ;
+    background-size: cover;
+    /* height: 100vh;  100% of the viewport height */
+    margin: 0;
     
 }
